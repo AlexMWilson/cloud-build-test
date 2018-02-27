@@ -6,9 +6,11 @@ public static class Test
 {
     public static void PreBuildTest()
     {
-        EditorSceneManager.OpenScene(Path.Combine(Application.dataPath, "test.unity"), OpenSceneMode.Single);
-        //GameObject.Find("Text").GetComponent<Text>().text = "Hello";
-        EditorSceneManager.SaveOpenScenes();
+        int x = 1;
+        x = 2;
+        // EditorSceneManager.OpenScene(Path.Combine(Application.dataPath, "test.unity"), OpenSceneMode.Single);
+        // GameObject.Find("Text").GetComponent<Text>().text = "Hello";
+        // EditorSceneManager.SaveOpenScenes();
     }
 }
   
